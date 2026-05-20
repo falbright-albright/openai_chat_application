@@ -1,0 +1,105 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.bun/
+bun.lockb
+
+# =========================
+# Build output
+# =========================
+dist/
+build/
+out/
+coverage/
+.tmp/
+temp/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+docker-data/
+postgres-data/
+data/
+*.pid
+
+# Docker overrides / local configs
+docker-compose.override.yml
+docker-compose.local.yml
+
+# =========================
+# PostgreSQL
+# =========================
+*.dump
+*.bak
+
+# Ignore local DB storage
+pgdata/
+postgres/
+postgresql/
+
+# =========================
+# Hono / Bun
+# =========================
+.hono/
+bunfig.local.toml
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.eslintcache
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Desktop.ini
+
+# =========================
+# Optional: dotenv variants
+# =========================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.dev
