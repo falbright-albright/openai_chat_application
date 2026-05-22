@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
+    "chat_application": ".",
     "hono": "^4.12.16",
     "pg": "^8.11.3",
     "pino": "^10.3.1",
